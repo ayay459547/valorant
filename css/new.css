@@ -1,0 +1,31 @@
+.cut{
+    margin: 0 auto;
+    position: relative;
+    height: 0;
+}
+.cut span{
+    font-size: 250px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #dadadaad;
+}
+.cut span::before{
+    display: block;
+    width: 0px;
+    height: 0px;
+    content: "";
+    border: 5px solid #ff4655;
+    position: absolute; 
+    top: 20px;
+    left: 40%;
+}
+.cut span::after{
+    display: block;
+    width: 0px;
+    height: 0px;
+    content: "";
+    border: 5px solid #ff4655;
+    position: absolute; 
+    top: 20px;
+    left: 50%;
+}
+

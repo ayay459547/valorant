@@ -1,0 +1,156 @@
+nav{
+    user-select: none;
+    background-color: #111111;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    /* overflow: hidden; */
+    z-index: 999;
+}
+nav .container{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 40px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+/*--logo區-------------------------------------*/
+.allgame{
+    cursor: pointer;
+    display: flex;
+    height: 75px;
+    align-items: center;
+    border-radius: 30px;
+}
+.riot{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 30px;
+}
+.riot img{
+    transition: all 0.28s steps(15, end);
+    width: 70px;
+    margin-top: -1055px;
+}
+.allgame:hover .riot img{
+    margin-top: 0px;
+}
+.allgame .iconfont{
+    font-size: 12px;
+    color: #7E7E7E;
+    padding: 15px 10px;
+    border-right: 2px solid #7e7e7e;
+}
+.allgame:hover.allgame .iconfont{
+    color: #ffffff;
+}
+
+.logo img{
+    margin: 0 30px;
+    width: 53px;
+    height: 50px;
+}
+/*----導覽區-----------------------------------*/
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    box-sizing: border-box;
+    line-height: 75px;
+    margin: 0 15px;
+    padding: 0 5px;
+    transition: border-bottom 0.1s;
+    border-bottom: 3px solid #ffffff00;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+}
+nav ul li:hover{
+    border-bottom: 3px solid #ff4655;
+}
+nav ul .iconfont{
+    font-size: 12px;
+    padding: 10px;
+    color: #7e7e7e;
+}
+nav ul li:hover .iconfont{
+    color: #ffffff;
+}
+nav ul a{
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.gameimfor,
+.client,
+.community{
+    margin: 3px 0 0 -30px;
+    position: absolute;
+    display: none;
+    
+}
+nav ul.gameimfor li,
+nav ul.client li,
+nav ul.community li{
+    border: none;
+}
+ul.gameimfor li a,
+ul.client li a,
+ul.community li a{
+    background-color: #111111;
+    color: #ffffff;
+    padding-left: 27px;
+    width: 170px;
+    height: 60px;
+    display: block;
+    line-height: 60px;
+}
+ul.gameimfor li a:hover,
+ul.client li a:hover,
+ul.community li a:hover{
+    background-color: #333333;
+}
+.gameimfordown:hover .gameimfor{
+    display: block;
+}
+.clientdown:hover .client{
+    display: block;
+}
+.communitydown:hover .community{
+    display: block;
+}
+/*-----語言----------------------------------*/
+.lang{
+    position: absolute;
+    right: 160px;
+}
+.lang span.iconfont{
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/*----立即玩-----------------------------------*/
+
+.nowplay{
+    position: absolute;
+    right: 0;
+    background-color: #ff4655;
+    border-radius: 5px;
+    line-height: 50px;
+    text-align: center;
+}
+.nowplay a{
+    display: block;
+    width: 140px;
+    height: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+}
+

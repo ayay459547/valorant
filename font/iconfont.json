@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12856616",
+      "name": "Instagram",
+      "font_class": "Instagram",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "15188684",
+      "name": "world",
+      "font_class": "world",
+      "unicode": "e739",
+      "unicode_decimal": 59193
+    },
+    {
+      "icon_id": "15188688",
+      "name": "youtube",
+      "font_class": "youtube",
+      "unicode": "e73b",
+      "unicode_decimal": 59195
+    },
+    {
+      "icon_id": "15378341",
+      "name": "facebook",
+      "font_class": "facebook",
+      "unicode": "eb8d",
+      "unicode_decimal": 60301
+    },
+    {
+      "icon_id": "19103103",
+      "name": "arrow down",
+      "font_class": "arrowdown",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    }
+  ]
+}
